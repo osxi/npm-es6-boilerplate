@@ -1,0 +1,34 @@
+{
+  "name": "your-lib-code",
+  "version": "0.0.1",
+  "description": "Description of your package goes here.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "browserify index.js -o dist/index.js -t [ babelify --presets [ es2015 ] ] -p [minifyify --no-map]",
+    "prebublish": "npm run build",
+    "test": "mocha --compilers js:babel-register -c -s 2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osxi/npm-es6-boilerplate.git"
+  },
+  "keywords": [
+    "node",
+    "boilerplate"
+  ],
+  "author": "osxi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osxi/npm-es6-boilerplate/issues"
+  },
+  "homepage": "https://github.com/osxi/npm-es6-boilerplate#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.1.18",
+    "babel-register": "^6.2.0",
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1",
+    "chai": "^3.4.1",
+    "minifyify": "^7.1.0",
+    "mocha": "^2.3.4"
+  }
+}
