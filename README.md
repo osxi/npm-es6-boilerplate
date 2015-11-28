@@ -1,4 +1,4 @@
-# npm-es6-boilerplate
+# npm-es6-boilerplate [![devDependency Status](https://david-dm.org/osxi/npm-es6-boilerplate/dev-status.svg)](https://david-dm.org/osxi/npm-es6-boilerplate#info=devDependencies)
 
 Boilerplate for NPM packages with Babel 6.x + Mocha + Chai, published as ES5.
 
