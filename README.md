@@ -7,6 +7,7 @@ Boilerplate for NPM packages with Babel 6.x + Mocha + Chai, published as ES5.
   - Babel 6.x + es2015 preset
   - Browserify + Babelify + Minifyify
   - Mocha + Chai with ES2015 support via `babel-register`
+    - Tests are stored in `test/`
 
 ## Usage
 
@@ -16,5 +17,5 @@ Boilerplate for NPM packages with Babel 6.x + Mocha + Chai, published as ES5.
   - Manipulate `index.js`, storing your individual ES2015 modules in `lib/`
   - `npm run build` to build to `dist/index.js` (the main file as per package.json)
   - Publish to NPM by running `npm publish`
-  
+
 Note: `npm run build` is also triggered from the `prepublish` hook in package.json so you don't have to run `npm run build` manually outside of local testing (for example, if you want to test your build by using `npm install /path/to/your-npm-package` as forked from this repo).
