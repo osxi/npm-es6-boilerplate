@@ -1,6 +1,6 @@
 {
   "name": "your-lib-code",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Description of your package goes here.",
   "main": "dist/index.js",
   "scripts": {
